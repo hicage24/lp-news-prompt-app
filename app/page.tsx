@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { buildDlpPrompt, type NewsItem } from "@/lib/prompt";
+import { buildDlpPrompt, type NewsItem } from "../lib/prompt";
 import { Copy, ExternalLink, RefreshCw, Search, Sparkles } from "lucide-react";
 
 type CategoryKey = "all" | "security" | "pc" | "smartphone" | "network" | "ai";
